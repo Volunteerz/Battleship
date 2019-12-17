@@ -1,0 +1,195 @@
+tr {
+	display: table-row;
+}
+.field {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.field-table1 {
+    vertical-align: middle;
+    border-collapse: collapse;
+    cursor: default;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.field-table2 {
+    vertical-align: middle;
+    border-collapse: collapse;
+    cursor: default;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+#field-cell-content {
+    width: 38px;
+    height: 38px;
+    position: relative;
+}
+table {
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout:fixed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    word-break:break-all;
+}
+
+.field1 {
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.field2 {
+    width: 35%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.row {
+    left: -3em;
+    width: 2em;
+    text-align: right;
+    top: 1em;
+    height: 1em;
+    position: absolute;
+    font-size: 11px;
+    z-index: 0;
+}
+
+#top_banner{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sign_in{
+    text-align:right;
+    text-decoration:underline;
+    color: blue;
+    cursor: pointer;
+}
+.sign_in_tourist{
+    text-align:right;
+    
+}
+.top-banner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+.bottom-banner{
+    margin-top: 10px;
+    text-align: center;
+}
+#login{
+    position:absolute;  /*设置布局方式*/
+    width:320px;        /*设置宽度*/
+    padding:4px;        /*设置内边距*/
+    height:156px;       /*设置高度*/
+    display:none;       /*设置显示方式*/
+    z-index:10;                 /*设置层叠顺序*/
+    background-color:white;   /*设置背景颜色*/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-78px;/**上移-50%**/
+    margin-left:-160px;/**左移-50%**/
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+        overflow: hidden;
+}
+#loginUI {
+    list-style:none;
+}
+
+#ship-box {
+    z-index: 2;
+    border: 2px solid #00f;
+    background: rgba(0,0,255,.05);
+    margin: -2px;
+    width: 400px;
+    height: 160px;
+}
+
+#ship0{
+    background-color: blue;
+    width: 156px;
+    height: 36px; 
+    float: left;
+
+}
+
+#ship2,#ship4 {
+    background-color: green;
+    width: 116px;
+    height: 36px;
+    float: left; 
+    
+}
+
+#ship3,#ship5,#ship9 {
+    background-color: yellow;
+    width: 76px;
+    height: 36px; 
+    float: right;
+}
+
+#ship1,#ship6,#ship7,#ship8 {
+    background-color: red;
+    width: 36px;
+    height: 36px; 
+    float: right;
+}
+
+.ship {
+    border: 2px solid black;
+    border-style: outset;
+    cursor: move;
+    z-index: 2;
+}
+.textarea{
+    vertical-align: middle;
+
+}
+.cha{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    position: relative; 
+}
+.cha::before,
+.cha::after{
+  content: "";
+  position: absolute;  /*方便进行定位*/
+  height: 35px;
+  width: 1.5px;
+  top: 2px; /*设置top和right使图像在20*20框中居中*/
+ background: #f39800;
+}
+.cha::before{
+  transform: rotate(45deg);  /*进行旋转*/
+}
+.cha::after{
+  transform: rotate(-45deg);
+}
+.yuan{
+          background-color: #CD96CD;
+          width: 100px;
+          height: 100px;
+          border-radius: 50px;
+}
